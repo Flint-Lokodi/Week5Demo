@@ -18,6 +18,11 @@
             <input type="submit" value="Submit">
         </form>
         <br>
+        <form action="average" method="get">
+            <input type="submit" value="reset">
+            <input type="hidden" value="true" name="action">
+        </form>
+        <br>
         Average: ${average}
     </body>
 </html>
